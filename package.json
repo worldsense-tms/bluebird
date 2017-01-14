@@ -67,11 +67,6 @@
   },
   "readmeFilename": "README.md",
   "main": "./js/release/bluebird.js",
-  "webpack": "./js/release/bluebird.js",
-  "browser": "./js/browser/bluebird.js",
-  "files": [
-    "js/browser",
-    "js/release",
-    "LICENSE"
-  ]
+  "webpack": "./src/bluebird.js",
+  "browser": "./js/browser/bluebird.js"
 }
